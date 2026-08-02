@@ -5,6 +5,52 @@
     <description>Update feed for Dropzone Convertor</description>
     <language>en</language>
     <item>
+      <title>Version 1.4.0</title>
+      <pubDate>Sun, 02 Aug 2026 10:54:52 -0400</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2 id="version-1.4.0-the-round-trip-series-prs-144-148">2026-08-02 -
+Version 1.4.0, the Round Trip series (PRs #144-#148)</h2>
+<h3 id="new-features">New Features</h3>
+<ul>
+<li>Word documents convert back to Markdown. Drop a .docx on the panel’s
+new To Markdown target, the tray icon, or the Dock icon, and clean
+GitHub-flavored Markdown lands in a folder you choose once. Embedded
+images come out into an images folder beside the document. Handy for the
+round trip AI work creates: a client sends a Word doc, and you want its
+text in Claude or ChatGPT without retyping anything.</li>
+<li>Sections choose their own formatting. The switches on the Advanced
+tab stay the defaults, and any section can carry its own set instead: a
+client report gets a table of contents and numbered headings, meeting
+notes get neither. Every entry point honors the override, from drops to
+watched folders to the integrations.</li>
+<li>Watched folders decide what happens to the source file. After a
+successful conversion the Markdown can stay put, move to a Processed
+folder, or go to the Trash, per section. Failures always stay to be
+fixed and retried, and nothing is ever hard-deleted.</li>
+<li>A quiet What’s New note appears once on the first launch after an
+update, since automatic installs skip the update window and its release
+notes. Fresh installs skip the note; everything is new there
+anyway.</li>
+</ul>
+<h3 id="fixes">Fixes</h3>
+<ul>
+<li>The section editor outgrew the screen once sections learned this
+many tricks; it now grows sideways instead. Two columns, with folder
+watching and per-section formatting each behind a switch, so the simple
+case stays simple and Save stays reachable.</li>
+<li>Captions in Settings and the section editor wrap instead of clipping
+mid-sentence. Ships as 1.4.0 (build 10).</li>
+</ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/bjsteiger/dropzone-convertor-releases/releases/download/v1.4.0/DropzoneConvertor-1.4.0.zip"
+        sparkle:edSignature="eo2qASLf/2c5tPLZH2xW4QwCgd5Ij64oaxw2rIB4BI8jDYm2RsT9QD+hYuHsrBEIyMiUyp5LfkZG+x+M9oNjAw==" length="70668331"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.3.1</title>
       <pubDate>Sat, 01 Aug 2026 15:40:51 -0400</pubDate>
       <sparkle:version>9</sparkle:version>
