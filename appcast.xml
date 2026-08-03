@@ -5,6 +5,44 @@
     <description>Update feed for Dropzone Convertor</description>
     <language>en</language>
     <item>
+      <title>Version 1.5.0</title>
+      <pubDate>Mon, 03 Aug 2026 11:49:34 -0400</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2 id="version-1.5.0-right-click-in-finder-pr-152">2026-08-03 - Version
+1.5.0, right-click in Finder (PR #152)</h2>
+<h3 id="new-features">New Features</h3>
+<ul>
+<li>Right-click a Markdown file in Finder and convert it on the spot.
+“Convert with Dropzone Convertor” sits near the bottom of the menu, one
+click from the file, and the styled document lands in your quick convert
+section with the usual notification. No dragging, no panel, nothing to
+switch on: the menu is there from the first launch.</li>
+<li>Word documents get the return trip in the same menu. Right-click a
+.docx and “Convert to Markdown with Dropzone Convertor” writes clean
+Markdown to your To Markdown folder.</li>
+<li>The menu stays out of the way otherwise. The items appear only for
+files the app can actually convert, so photos, PDFs, and plain .txt
+files keep their menus exactly as they were.</li>
+<li>.mdown and .mmd files are now recognized by type, not just by name,
+so they get the same right-click treatment as .md and .markdown.</li>
+</ul>
+<h3 id="fixes">Fixes</h3>
+<ul>
+<li>The Finder menu item that never appeared (#24) appears. The service
+had been registered correctly all along and was missing a single
+Info.plist key, NSRequiredContext, without which macOS parses the
+definition, lists it, and never shows it.</li>
+</ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/bjsteiger/dropzone-convertor-releases/releases/download/v1.5.0/DropzoneConvertor-1.5.0.zip"
+        sparkle:edSignature="45XRHVAb1PZma3vCQrd30iRYhjBJk6ZuzlnnHmPnXvhcMHhjvvVrFIgWzGzLbqFqg5zibUnd4ZLLFSZoFMsFDg==" length="70678415"
+        type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.4.0</title>
       <pubDate>Sun, 02 Aug 2026 10:54:52 -0400</pubDate>
       <sparkle:version>10</sparkle:version>
